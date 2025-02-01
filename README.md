@@ -1,5 +1,8 @@
 # Java Reverse String Array
-Example of how to reverse entries in a Java String array, using multiple techniques.
+Example of how to reverse entries in a Java String array, using multiple techniques:
+* for-loop moving simultaneously in from both the left and right
+* Collections
+* Stack
 
 ## Tools Used
 
