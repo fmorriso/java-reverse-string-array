@@ -15,6 +15,7 @@ out/
 /.idea/misc.xml
 .idea/**
 *.iml
+reverse string array.iml
 
 ### Eclipse ###
 .apt_generated
