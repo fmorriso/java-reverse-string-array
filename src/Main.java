@@ -45,6 +45,7 @@ public class Main {
 
     /** Reverse the contents of an array of String.
      * @param array - an array of Strings
+     * @implNote - single pass that loops length / 2 times to accomplish the task.
      */
     private static void reverseUsingForLoop(String[] array) {
         int len = array.length; // constant valued expression.
@@ -59,6 +60,7 @@ public class Main {
 
     /** Reverse the contents of an array of String.
      * @param array - an array of Strings
+     * @implNote - single pass that loops length / 2 times to accomplish the task.
      */
     private static void reverseUsingWhileLoop(String[] array) {
         int left = 0;
