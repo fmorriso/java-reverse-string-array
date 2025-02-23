@@ -48,7 +48,7 @@ public class Main {
      */
     private static void reverseUsingForLoop(String[] array) {
         int len = array.length; // constant valued expression.
-        int halfWay = array.length / 2; // constant valued expression, so don't keep looking at it each time through the loop!
+        int halfWay = len / 2; // constant valued expression, so don't keep looking at it each time through the loop!
         for (int left = 0; left < halfWay; left++) {
             int right = len - 1 - left;
             String temp = array[left];
